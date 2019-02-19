@@ -1,0 +1,7 @@
+info:
+  component: Hystrix Dashboard
+spring:
+  application.name: hystrix-dash
+security.basic.enabled: false
+server.port: 7979
+   
