@@ -1,11 +1,11 @@
 # Hystrix
 
-**Hystrix** is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+**Hystrix** is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable. 
 
 Every point in an application that reaches out over the network or into a client library that might result in network requests is a source of potential failure. Worse than failures, these applications can also result in increased latencies between services, which backs up queues, threads, and other system resources causing even more cascading failures across the system.
 
 What will happen to application when this external service has a problem?
-Application will become unavailable. The screens of application will freeze and not respond as the external system doesn’t return with a response.
+Application will become unavailable. The screens of application will freeze and not respond as the external system doesnâ€™t return with a response.
 
 What should the application do, when the external service is unavailable?
 1. Respond users with proper message.
